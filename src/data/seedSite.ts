@@ -4,9 +4,9 @@ export const seedSite: SiteData = {
   profile: {
     name: 'Zeynep Sude Bayram',
     title: 'Bilgisayar Mühendisliği Öğrencisi',
-    greeting: 'Tanışalım 👋',
-    description: 'Manisa Celal Bayar Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisiyim. Web ve mobil ekosisteminde kullanıcı odaklı, performanslı ve görsel kalitesi yüksek ürünler geliştirmeye odaklanıyorum.',
-    tags: ['Bilgisayar Mühendisliği', 'Vue 3 & React', 'Flutter Mobil', 'İzmir, Türkiye'],
+    greeting: 'Merhaba',
+    description: 'Manisa Celal Bayar Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisiyim. Web, mobil ekosistemi, yapay zeka makine öğrenmesi gibi konularda ürünler geliştiriyorum. Ayrıca bu aralar Quantum Bilgisayarlar ve Quantum kodlama ile yakından ilgileniyorum.',
+    tags: ['Bilgisayar Mühendisliği', 'Web Geliştirme', 'Mobil Geliştirme', 'Yapay Zeka', 'Makine Öğrenmesi', 'Quantum Computing', 'İzmir, Türkiye'],
   },
   contacts: [
     {

@@ -30,4 +30,13 @@ export const seedProjects: Project[] = [
     featured: false,
     createdAt: new Date('2026-02-10').toISOString(),
   },
+  {
+    id: 'seed-4',
+    title: 'Araç Hasar Tespiti ve Görüntü İşleme',
+    description: 'AutoML teknikleri ile en yüksek doğruluk oranına sahip model seçildi ve hasar tespit süreci otomatikleştirildi.',
+    technologies: ['Python, AutoML, Pandas'],
+    category: 'ml',
+    featured: false,
+    createdAt: new Date('2026-02-10').toISOString(),
+  },
 ]
