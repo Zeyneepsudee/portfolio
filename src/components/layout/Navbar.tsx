@@ -78,9 +78,11 @@ function Navbar() {
               {l.label}
             </a>
           ))}
-          <Link to={isHome ? '/admin' : '/'} onClick={() => setOpen(false)} className="text-xs font-bold text-blush-600">
-            {isHome ? 'Yönetim Paneli' : 'Siteye Dön'}
-          </Link>
+          {!isHome && (
+            <Link to="/" onClick={() => setOpen(false)} className="text-xs font-bold text-blush-600">
+              Siteye Dön
+            </Link>
+          )}
         </div>
       )}
     </header>
