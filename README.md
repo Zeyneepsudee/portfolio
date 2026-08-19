@@ -34,10 +34,7 @@ Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyi
    npm install
    ```
 
-2. `.env` dosyasını oluşturun ve `VITE_ADMIN_HASH` değişkenini ayarlayın. (Bkz: `.env.example`):
-   ```bash
-   cp .env.example .env
-   ```
+2. Proje kök dizininde `.env` isimli bir dosya oluşturun ve içine `VITE_ADMIN_HASH` değişkenini manuel olarak ekleyin (Örn: `VITE_ADMIN_HASH=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`).
 
 3. Geliştirme sunucusunu başlatın:
    ```bash
