@@ -172,12 +172,14 @@ function Admin() {
       )}
 
       {/* Tabs */}
-      <div className="mt-8 flex gap-2 border-b-3 border-ink-900">
+      <div className="mt-8 flex flex-wrap gap-1.5 border-b-3 border-ink-900 sm:gap-2">
         {(['projects', 'profile', 'contacts'] as Tab[]).map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`px-6 py-3 font-display text-sm transition ${activeTab === tab ? 'bg-ink-900 text-white' : 'bg-white text-ink-900 hover:bg-blush-50'}`}
+            className={`flex-1 min-w-[90px] px-2 py-2.5 sm:px-6 sm:py-3 font-display text-[9px] sm:text-sm transition ${
+              activeTab === tab ? 'bg-ink-900 text-white' : 'bg-white text-ink-900 hover:bg-blush-50'
+            }`}
           >
             {tab === 'projects' && 'Projeler'}
             {tab === 'profile' && 'Hakkımda'}
