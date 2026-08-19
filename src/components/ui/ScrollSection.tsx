@@ -1,7 +1,7 @@
 import { useRef, type ReactNode } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 
-function ScrollSection({ children, id }: { children: ReactNode; id?: string }) {
+function ScrollSection({ children, id, className = 'py-28' }: { children: ReactNode; id?: string; className?: string }) {
   const ref = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] })
 
@@ -12,7 +12,7 @@ function ScrollSection({ children, id }: { children: ReactNode; id?: string }) {
   const filter = useTransform(blur, (v) => `blur(${v}px)`)
 
   return (
-    <section id={id} ref={ref} className="py-28">
+    <section id={id} ref={ref} className={className}>
       <motion.div style={{ opacity, scale, y, filter }}>{children}</motion.div>
     </section>
   )

@@ -1,12 +1,13 @@
 import { motion } from 'framer-motion'
 import { Sparkles, ArrowRight } from 'lucide-react'
 import { useSite } from '../../hooks/useSite'
+import ScrollSection from '../ui/ScrollSection'
 
 function BeniTaniyin() {
   const { profile } = useSite()
 
   return (
-    <section id="beni-taniyin" className="scroll-mt-28 py-6">
+    <ScrollSection id="beni-taniyin" className="scroll-mt-28 py-6">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -75,7 +76,7 @@ function BeniTaniyin() {
         </div>
       </motion.div>
 
-    </section>
+    </ScrollSection>
   )
 }
 

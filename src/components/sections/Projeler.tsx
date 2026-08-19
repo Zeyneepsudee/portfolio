@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Cpu, ExternalLink, ChevronDown, ChevronUp, Terminal } from 'lucide-react'
 import { useProjects } from '../../hooks/useProjects'
+import ScrollSection from '../ui/ScrollSection'
 
 const allSkills = [
   'Vue 3', 'React', 'TypeScript', 'Flutter', 'Dart', 'Laravel', 'Django', 'Python', 'PostgreSQL', 'Git', 'TailwindCSS', 'REST API'
@@ -27,7 +28,7 @@ function Projeler() {
   const hasMore = projects.length > INITIAL_COUNT
 
   return (
-    <section id="projeler" className="scroll-mt-28 py-6">
+    <ScrollSection id="projeler" className="scroll-mt-28 py-6">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -136,7 +137,7 @@ function Projeler() {
           ))}
         </div>
       </motion.div>
-    </section>
+    </ScrollSection>
   )
 }
 

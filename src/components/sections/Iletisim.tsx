@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { Sparkles } from 'lucide-react'
 import * as LucideIcons from 'lucide-react'
 import { useSite } from '../../hooks/useSite'
+import ScrollSection from '../ui/ScrollSection'
 
 function LinkedinIcon({ className = 'h-5 w-5' }: { className?: string }) {
   return (
@@ -41,7 +42,7 @@ function Iletisim() {
   const { contacts } = useSite()
 
   return (
-    <section id="iletisim" className="scroll-mt-28 py-6">
+    <ScrollSection id="iletisim" className="scroll-mt-28 py-6">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -91,7 +92,7 @@ function Iletisim() {
           )
         })}
       </div>
-    </section>
+    </ScrollSection>
   )
 }
 
