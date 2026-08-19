@@ -1,10 +1,14 @@
 # Zeynep Sude Bayram — Portfolyo
 
-Bu proje, bilgisayar mühendisliği öğrencisi olan Zeynep Sude Bayram için geliştirilmiş, performanslı ve modern bir kişisel portfolyo web sitesidir. Kullanıcı odaklı bir tasarım ve yönetim paneli sunar.
+Bu proje, Zeynep Sude Bayram için geliştirilmiş, sevimli bir kişisel portfolyo web sitesidir. Kullanıcı odaklı bir tasarım ve yönetim paneli sunar.
 
 [Canlı Demo](DEPLOY_LINKI_BURAYA)
 
-![Ana sayfa](docs/screenshot.png)
+<img width="1470" height="802" alt="Ekran Resmi 2026-08-19 22 17 42" src="https://github.com/user-attachments/assets/50881a15-304b-4eb1-a707-81f86fe41564" />
+<img width="1470" height="802" alt="Ekran Resmi 2026-08-19 22 18 01" src="https://github.com/user-attachments/assets/b8f12cad-2aa3-436a-a5d4-d043b1a5350e" />
+<img width="1470" height="802" alt="Ekran Resmi 2026-08-19 22 18 33" src="https://github.com/user-attachments/assets/7ae3dca6-5f76-4fc7-97d9-833716bc76e5" />
+
+
 
 ## 🛠️ Teknolojiler
 - React 19
